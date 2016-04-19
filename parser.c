@@ -195,6 +195,10 @@ void parse_file ( char * filename,
     else if ( strncmp(line, "ident", strlen(line)) == 0 ) {
       ident(transform);
     }
+    else if ( strncmp(line, "ident", strlen(line)) == 0 ) {
+    }
+    else if ( strncmp(line, "ident", strlen(line)) == 0 ) {
+    }
     else if ( strncmp(line, "apply", strlen(line)) == 0 ) {
       //printf("APPLY!\n");
       //print_matrix( transform );
