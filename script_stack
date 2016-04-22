@@ -1,0 +1,124 @@
+#body
+push
+translate
+175 150 0
+yrotate
+45
+xrotate
+10
+box
+-50 150 25 200 50 50
+#head
+push
+translate
+-150 120 0
+sphere
+0 0 50
+#right shoulder
+pop
+push
+translate
+-70 150 0
+torus
+0 0 10 4
+#right arm
+pop
+push
+translate
+-15 250 0
+xrotate
+50
+yrotate
+90
+box
+0 0 20 100 20 20
+#left shoulder
+pop
+push
+translate
+-70 100 0
+torus
+0 0 10 4
+#left arm
+pop
+push
+translate
+-66 100 0
+xrotate
+50
+yrotate
+90
+box
+0 0 20 100 20 20
+#right leg top
+pop
+push
+translate
+100 100 0 
+xrotate
+90
+zrotate
+90
+box
+0 -50 0 25 150 25
+#left leg top
+pop
+push
+translate
+100 100 0 
+xrotate
+90
+zrotate
+90
+box
+-30 -50 -25 25 150 25
+#right knee
+pop
+push
+translate
+280 110 0
+xrotate
+90
+yrotate
+90
+torus
+0 0 10 4
+#left knee
+pop
+push
+translate
+320 140 0
+xrotate
+90
+yrotate
+90
+torus
+0 0 10 4
+#right leg bottom
+pop
+push
+translate
+260 100 0 
+yrotate
+10
+xrotate
+90
+zrotate
+90
+box
+0 -50 0 25 150 25
+#left leg top
+pop
+push
+translate
+250 100 0 
+yrotate
+-30
+xrotate
+90
+zrotate
+90
+box
+-30 -50 -25 25 100 25
+display
+quit
